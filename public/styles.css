@@ -1,0 +1,74 @@
+.main-header {
+  text-align: center;
+  margin-top: 1.25em;
+}
+
+.card-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2.3em;
+  margin-top: 3.25em;
+}
+
+.detail-container {
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1.25em;
+}
+
+.currency-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25em 0;
+  border: 2px solid black;
+  box-shadow: 0 2px 5px rgb(102, 97, 97);
+}
+
+.btc-form {
+  width: 90%;
+  margin: auto;
+  padding: 1.25em 0;
+}
+
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group-select {
+  padding-right: 2.5em;
+}
+
+#currency,
+#amount {
+  margin-left: 1.25em;
+}
+
+.btn {
+  width: 92%;
+}
+
+.result {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.header-calculator {
+  margin-top: 2.5em;
+}
